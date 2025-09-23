@@ -1,1 +1,26 @@
-node_modules
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Build outputs
+frontend/build/
+backend/coverage/
+coverage/
+dist/
+.out/
+.next/
+
+# Env and local
+.env
+.env.*
+.DS_Store
+
+# Logs
+logs/
+*.log

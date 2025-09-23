@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import { useParams, useNavigate } from "react-router-dom";
 
 function ItemDetail() {
   const { id } = useParams();
@@ -7,19 +7,27 @@ function ItemDetail() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('/api/items/' + id)
-      .then(res => res.ok ? res.json() : Promise.reject(res))
+    const ctrl = new AbortController();
+    fetch("http://localhost:3001/api/items/" + id, { signal: ctrl.signal })
+      .then((res) => (res.ok ? res.json() : Promise.reject(res)))
       .then(setItem)
-      .catch(() => navigate('/'));
+      .catch(() => {
+        if (!ctrl.signal.aborted) navigate("/");
+      });
+    return () => ctrl.abort();
   }, [id, navigate]);
 
   if (!item) return <p>Loading...</p>;
 
   return (
-    <div style={{padding: 16}}>
+    <div style={{ padding: 16 }}>
       <h2>{item.name}</h2>
-      <p><strong>Category:</strong> {item.category}</p>
-      <p><strong>Price:</strong> ${item.price}</p>
+      <p>
+        <strong>Category:</strong> {item.category}
+      </p>
+      <p>
+        <strong>Price:</strong> ${item.price}
+      </p>
     </div>
   );
 }

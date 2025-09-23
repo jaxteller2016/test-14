@@ -1,7 +1,222 @@
 [
   { "id": 1, "name": "Laptop Pro", "category": "Electronics", "price": 2499 },
-  { "id": 2, "name": "Noise Cancelling Headphones", "category": "Electronics", "price": 399 },
-  { "id": 3, "name": "Ultra‑Wide Monitor", "category": "Electronics", "price": 999 },
+  {
+    "id": 2,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 399
+  },
+  {
+    "id": 3,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 999
+  },
   { "id": 4, "name": "Ergonomic Chair", "category": "Furniture", "price": 799 },
-  { "id": 5, "name": "Standing Desk", "category": "Furniture", "price": 1199 }
+  { "id": 5, "name": "Standing Desk", "category": "Furniture", "price": 1199 },
+  { "id": 6, "name": "Wireless Mouse", "category": "Electronics", "price": 59 },
+  {
+    "id": 7,
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 129
+  },
+  { "id": 8, "name": "USB-C Hub", "category": "Electronics", "price": 49 },
+  { "id": 9, "name": "4K Webcam", "category": "Electronics", "price": 129 },
+  { "id": 10, "name": "Portable SSD", "category": "Electronics", "price": 149 },
+  {
+    "id": 11,
+    "name": "Smartphone XL",
+    "category": "Electronics",
+    "price": 1099
+  },
+  { "id": 12, "name": "Tablet Plus", "category": "Electronics", "price": 699 },
+  { "id": 13, "name": "Smartwatch", "category": "Electronics", "price": 299 },
+  {
+    "id": 14,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 149
+  },
+  {
+    "id": 15,
+    "name": "Gaming Console",
+    "category": "Electronics",
+    "price": 499
+  },
+  { "id": 16, "name": "VR Headset", "category": "Electronics", "price": 399 },
+  { "id": 17, "name": "Drone Pro", "category": "Electronics", "price": 999 },
+  {
+    "id": 18,
+    "name": "Action Camera",
+    "category": "Electronics",
+    "price": 299
+  },
+  { "id": 19, "name": "E-Reader", "category": "Electronics", "price": 129 },
+  {
+    "id": 20,
+    "name": "Wi-Fi 6 Router",
+    "category": "Electronics",
+    "price": 199
+  },
+  { "id": 21, "name": "Desk Lamp", "category": "Office", "price": 39 },
+  {
+    "id": 22,
+    "name": "Magnetic Whiteboard",
+    "category": "Office",
+    "price": 89
+  },
+  { "id": 23, "name": "Filing Cabinet", "category": "Office", "price": 199 },
+  { "id": 24, "name": "Notebook Set", "category": "Office", "price": 12 },
+  { "id": 25, "name": "Gel Pens Pack", "category": "Office", "price": 15 },
+  { "id": 26, "name": "Desk Organizer", "category": "Office", "price": 25 },
+  { "id": 27, "name": "Monitor Arm", "category": "Office", "price": 89 },
+  { "id": 28, "name": "HDMI Cable", "category": "Accessories", "price": 12 },
+  {
+    "id": 29,
+    "name": "Surge Protector",
+    "category": "Accessories",
+    "price": 29
+  },
+  { "id": 30, "name": "Power Bank", "category": "Accessories", "price": 59 },
+  {
+    "id": 31,
+    "name": "Travel Backpack",
+    "category": "Accessories",
+    "price": 99
+  },
+  { "id": 32, "name": "Laptop Sleeve", "category": "Accessories", "price": 29 },
+  {
+    "id": 33,
+    "name": "Insulated Water Bottle",
+    "category": "Accessories",
+    "price": 25
+  },
+  { "id": 34, "name": "Ceramic Coffee Mug", "category": "Home", "price": 15 },
+  {
+    "id": 35,
+    "name": "Sound Level Meter",
+    "category": "Electronics",
+    "price": 79
+  },
+  { "id": 36, "name": "Label Maker", "category": "Office", "price": 69 },
+  { "id": 37, "name": "Paper Shredder", "category": "Office", "price": 149 },
+  {
+    "id": 38,
+    "name": "1080p Projector",
+    "category": "Electronics",
+    "price": 599
+  },
+  {
+    "id": 39,
+    "name": "Projection Screen",
+    "category": "Electronics",
+    "price": 129
+  },
+  {
+    "id": 40,
+    "name": "Conference Speakerphone",
+    "category": "Electronics",
+    "price": 299
+  },
+  { "id": 41, "name": "Modern Sofa", "category": "Furniture", "price": 899 },
+  { "id": 42, "name": "Bookshelf", "category": "Furniture", "price": 199 },
+  { "id": 43, "name": "Side Table", "category": "Furniture", "price": 149 },
+  { "id": 44, "name": "Floor Lamp", "category": "Home", "price": 129 },
+  { "id": 45, "name": "TV Stand", "category": "Furniture", "price": 199 },
+  {
+    "id": 46,
+    "name": "6-Drawer Dresser",
+    "category": "Furniture",
+    "price": 399
+  },
+  { "id": 47, "name": "Nightstand", "category": "Furniture", "price": 129 },
+  { "id": 48, "name": "Dining Table", "category": "Furniture", "price": 799 },
+  { "id": 49, "name": "Bar Stool", "category": "Furniture", "price": 99 },
+  { "id": 50, "name": "Bean Bag Chair", "category": "Furniture", "price": 79 },
+  { "id": 51, "name": "Standing Mat", "category": "Office", "price": 59 },
+  { "id": 52, "name": "Foot Rest", "category": "Office", "price": 39 },
+  {
+    "id": 53,
+    "name": "Cable Management Tray",
+    "category": "Office",
+    "price": 49
+  },
+  {
+    "id": 54,
+    "name": "Anti-Glare Screen",
+    "category": "Accessories",
+    "price": 79
+  },
+  { "id": 55, "name": "Desk Pad", "category": "Office", "price": 29 },
+  { "id": 56, "name": "Mouse Pad", "category": "Accessories", "price": 19 },
+  { "id": 57, "name": "Wrist Rest", "category": "Accessories", "price": 25 },
+  {
+    "id": 58,
+    "name": "Wall-Mount Server Rack",
+    "category": "Electronics",
+    "price": 499
+  },
+  {
+    "id": 59,
+    "name": "NAS Enclosure",
+    "category": "Electronics",
+    "price": 399
+  },
+  { "id": 60, "name": "Smart Plug", "category": "Electronics", "price": 25 },
+  { "id": 61, "name": "Smart Bulb", "category": "Electronics", "price": 19 },
+  {
+    "id": 62,
+    "name": "Smart Thermostat",
+    "category": "Electronics",
+    "price": 199
+  },
+  {
+    "id": 63,
+    "name": "Doorbell Camera",
+    "category": "Electronics",
+    "price": 149
+  },
+  { "id": 64, "name": "Air Purifier", "category": "Home", "price": 199 },
+  { "id": 65, "name": "Humidifier", "category": "Home", "price": 149 },
+  { "id": 66, "name": "Dehumidifier", "category": "Home", "price": 179 },
+  { "id": 67, "name": "Robot Vacuum", "category": "Home", "price": 299 },
+  { "id": 68, "name": "Steam Mop", "category": "Home", "price": 129 },
+  { "id": 69, "name": "Blender", "category": "Kitchen", "price": 99 },
+  { "id": 70, "name": "Toaster", "category": "Kitchen", "price": 49 },
+  { "id": 71, "name": "Microwave Oven", "category": "Kitchen", "price": 199 },
+  { "id": 72, "name": "Air Fryer", "category": "Kitchen", "price": 129 },
+  { "id": 73, "name": "Electric Kettle", "category": "Kitchen", "price": 49 },
+  { "id": 74, "name": "Rice Cooker", "category": "Kitchen", "price": 89 },
+  { "id": 75, "name": "Food Processor", "category": "Kitchen", "price": 159 },
+  { "id": 76, "name": "Chef Knife", "category": "Kitchen", "price": 99 },
+  { "id": 77, "name": "Cutting Board", "category": "Kitchen", "price": 39 },
+  { "id": 78, "name": "Mixing Bowl Set", "category": "Kitchen", "price": 49 },
+  { "id": 79, "name": "Measuring Cups", "category": "Kitchen", "price": 29 },
+  { "id": 80, "name": "Baking Sheet", "category": "Kitchen", "price": 19 },
+  { "id": 81, "name": "Garden Hose", "category": "Outdoors", "price": 39 },
+  { "id": 82, "name": "Lawn Mower", "category": "Outdoors", "price": 299 },
+  { "id": 83, "name": "Hedge Trimmer", "category": "Outdoors", "price": 149 },
+  { "id": 84, "name": "Leaf Blower", "category": "Outdoors", "price": 129 },
+  { "id": 85, "name": "Pressure Washer", "category": "Outdoors", "price": 249 },
+  { "id": 86, "name": "Patio Heater", "category": "Outdoors", "price": 199 },
+  { "id": 87, "name": "Gas Grill", "category": "Outdoors", "price": 299 },
+  { "id": 88, "name": "Camping Tent", "category": "Outdoors", "price": 149 },
+  { "id": 89, "name": "Sleeping Bag", "category": "Outdoors", "price": 99 },
+  { "id": 90, "name": "Camping Chair", "category": "Outdoors", "price": 59 },
+  { "id": 91, "name": "Hybrid Bicycle", "category": "Outdoors", "price": 599 },
+  { "id": 92, "name": "Bike Helmet", "category": "Outdoors", "price": 49 },
+  { "id": 93, "name": "Bike Pump", "category": "Outdoors", "price": 35 },
+  { "id": 94, "name": "Bike Lock", "category": "Outdoors", "price": 25 },
+  {
+    "id": 95,
+    "name": "Fitness Tracker",
+    "category": "Electronics",
+    "price": 129
+  },
+  { "id": 96, "name": "Yoga Mat", "category": "Sports", "price": 39 },
+  { "id": 97, "name": "Dumbbell Set", "category": "Sports", "price": 199 },
+  { "id": 98, "name": "Resistance Bands", "category": "Sports", "price": 29 },
+  { "id": 99, "name": "Jump Rope", "category": "Sports", "price": 15 },
+  { "id": 100, "name": "Treadmill", "category": "Sports", "price": 799 }
 ]
