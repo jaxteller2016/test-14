@@ -36,6 +36,7 @@ Your task is to refactor, optimize, and fix these problems.
 - Solid error handling and edge‑case consideration.
 - Tests that pass via `npm test` in both frontend and backend.
 - A brief `SOLUTION.md` describing **your approach and trade‑offs**.
+- Just a small test here
 
 ## Quick Start
 
